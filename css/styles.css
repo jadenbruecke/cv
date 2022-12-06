@@ -2,6 +2,7 @@ body {
     margin: 0;
     text-align: center;
     font-family: 'Merriweather', serif;
+    color: #40514e;
 }
 
 h1 {
@@ -26,15 +27,9 @@ h3 {
 }
 
 hr {
-    border-top: 10px dotted #EAF6F6;
+    border: 10px dotted #EAF6F6;
     border-bottom: none;
-    border-left: none;
-    border-right: none;
     width: 10%;
-}
-
-a {
-    color: #11999E;
 }
 
 p {
@@ -58,20 +53,19 @@ p {
 .img-computer {
     width: 25%;
     float: left;
-    margin: 30px;
+    margin: auto 30px;
 }
 
 .img-cooking {
     width: 25%;
     float: right;
-    margin: 30px;
+    margin: auto 30px;
 }
 
 .skill-row {
     width: 50%;
     display: inline-block;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin: 30px auto;
     text-align: left;
 }
 
@@ -121,11 +115,17 @@ p {
 }
 
 .footer-link {
-    margin: auto 10px;
+    color: #11999E;
+    margin: auto 20px;
+    text-decoration: none;
+}
+
+.footer-link:hover {
+    color: #EAF6F6;
 }
 
 .footer-text {
-    font-size: small;
+    font-size: 0.75rem;
     color: #EAF6F6;
 }
 
